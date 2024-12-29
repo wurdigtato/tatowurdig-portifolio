@@ -1,0 +1,154 @@
+.about_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about_container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+}
+
+.about_container header h2 {
+    color: #f9f9f9;
+    font-family: 'Fira Code';
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.about_container header span {
+    color: #0C826A;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio {
+    width: 30%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2.5rem;
+}
+
+.bio h3 {
+    color: #f9f9f9;
+    font-family: 'Fira Code';
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.bio span {
+    color: #0C826A;
+}
+
+.bio p {
+    color: #f9f9f9;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.academic {
+    width: 30%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2.5rem;
+}
+
+.academic h3 {
+    color: #f9f9f9;
+    font-family: 'Fira Code';
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.academic i {
+    color: #0C826A;
+    margin-right: 1.5rem;
+}
+
+.course_container {
+    display: flex;   
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+.course_container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.44rem;
+}
+
+.course_container > div:first-child h5 {
+    color: #0C826A;
+    font-family: 'Fira code';
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.course_container > div:first-child h4 {
+    color: #f9f9f9;
+    font-family: 'Fira code';
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.course_container > div:first-child p {
+    color: #5CFFDE;
+    font-family: 'Fira code';
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.course_container > div h5 {
+    color: #0C826A;
+    font-family: 'Fira code';
+    font-size: 0,75rem;
+    font-weight: 700;
+}
+
+.course_container > div h4 {
+    color: #e2e2e2;
+    font-family: 'Fira code';
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.course_container > div p {
+    color: #62cfba;
+    font-family: 'Fira code';
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.technologies {
+    width: 30%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 2.5rem;
+}
+
+.technologies h3 {
+    color: #f9f9f9;
+    font-family: 'Fira Code';
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.technologies i {
+    color: #0C826A;
+    margin-right: 1.5rem;
+}

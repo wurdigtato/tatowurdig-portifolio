@@ -1,0 +1,26 @@
+.list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    translate: -50%;
+}
+
+.item a{
+    font-family: 'Fira Code';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #F9F9F9;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+}
+
+.item a:hover {
+    color: #0C826A;
+    text-decoration: underline;
+    text-decoration-color: #0C826A;
+    text-decoration-thickness: 20%;
+    text-underline-offset: 30%;
+}

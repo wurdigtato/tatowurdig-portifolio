@@ -1,0 +1,32 @@
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.62rem;
+    margin: 2rem 0;
+}
+
+.home_content {
+    display: flex;
+    flex-direction: column;   
+    align-items: c;
+}
+
+.home_content h1, .home_container h2 {
+    color: #f9f9f9;
+    font-family: 'Fira Code', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home_content span {
+    color: #0c826a;
+}
+
+.home_content p {
+    color: #f9f9f9;
+    font-family: Nunito, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
