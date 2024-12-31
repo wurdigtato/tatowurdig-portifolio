@@ -1,0 +1,17 @@
+.header_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+}
+
+.header_content h2 {
+    color: #f9f9f9;
+    font-family: 'Fira Code';
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.header_content  span {
+    color: #0C826A;
+}

@@ -1,37 +1,33 @@
+import TopPage from "../layout/TopPage";
 import IconsGrid from "../layout/IconsGrid";
 import styles from "./About.module.css";
-import fotoPerfil from "../../img/perfil-pequeno.svg";
 
 function About() {
   return (
     <section className={styles.about_container}>
-      <header>
-        <h2>
-          Tácio <span>Würdig</span>
-        </h2>
-        <img src={fotoPerfil} alt="" />
-      </header>
+      <TopPage/>
       <div className={styles.about_content}>
         <div className={styles.bio}>
           <h3>
             Bio <span>:)</span>
           </h3>
-          <p>
-            Sou Tácio Würdig, natural de Pelotas, RS, e estudante de Análise e
-            Desenvolvimento de Sistemas. Tenho experiência em desenvolvimento
-            com Java, Spring Boot e React, e minha formação é enriquecida por
-            mais de uma década de atuação na área musical, onde me graduei em
-            Música e Produção Musical. Durante esse período, trabalhei na
-            gravação e produção de diversos artistas. 
-            <br/>
-            Minha trajetória une duas
-            paixões: tecnologia e música. Essa combinação me permite aliar
-            criatividade e lógica para resolver problemas de forma inovadora,
-            seja no desenvolvimento de projetos tecnológicos ou na produção
-            artística. Estou sempre em busca de oportunidades que desafiem
-            minhas habilidades técnicas e criativas, contribuindo para a criação
-            de soluções que fazem a diferença.
-          </p>
+          <div className={styles.bio_content}>
+            <p>
+              Sou <span className={styles.bio_destaque}>Tácio Würdig</span>, natural de Pelotas, RS, 
+              e estudante de Análise e Desenvolvimento de Sistemas. 
+              Tenho experiência em desenvolvimento com Java, Spring Boot e <span className={styles.bio_destaque}>React</span>, 
+              e minha formação é enriquecida por mais de uma década de atuação na área musical, 
+              onde me graduei em Música e Produção Musical. Durante esse período, trabalhei na
+              gravação , produção de diversos artistas e <span className={styles.bio_destaque}>gestão de projetos</span> no âmbito artistico e administrativo.
+             
+              Minha trajetória une duas
+              paixões: <span className={styles.bio_destaque}>tecnologia</span> e música. Essa combinação me permite aliar <span className={styles.bio_destaque}>criatividade</span> e lógica para resolver problemas de forma inovadora,
+              seja no desenvolvimento de projetos tecnológicos ou na produção
+              artística. Estou sempre em busca de oportunidades que desafiem
+              minhas habilidades técnicas e criativas, contribuindo para a criação
+              de <span className={styles.bio_destaque}>soluções</span> que fazem a diferença.
+            </p>
+          </div>
         </div>
         <div className={styles.academic}>
           <h3>

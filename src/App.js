@@ -1,5 +1,6 @@
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion';
 
 import Container from './components/layout/Countainer';
 import Navbar from './components/layout/Navbar';
@@ -10,18 +11,19 @@ import Works from './components/pages/Works'
 
 function App() {
   return (
-    <Router>
-      <Container customClass='min-height'>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/works' element={<Works/>} />
-          <Route path='/contact' element={<Contact/>} />
-        </Routes>
-      </Container>
-        <Navbar />
-
-    </Router>
+    <AnimatePresence mode='wait'>
+      <Router>
+        <Container customClass='min-height'>
+          <Routes>
+            <Route path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/works' element={<Works/>} />
+            <Route path='/contact' element={<Contact/>} />
+          </Routes>
+        </Container>
+          <Navbar />
+      </Router>
+    </AnimatePresence>
   );
 }
 

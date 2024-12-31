@@ -19,8 +19,8 @@
 
 .item a:hover {
     color: #0C826A;
-    text-decoration: underline;
-    text-decoration-color: #0C826A;
-    text-decoration-thickness: 20%;
-    text-underline-offset: 30%;
+}
+
+.active{
+    color: #0C826A;
 }
